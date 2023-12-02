@@ -1,0 +1,29 @@
+body {
+    padding: 100px;
+    width: 100vw;
+}
+
+form {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group {
+    min-width: 300px;
+}
+
+table {
+    width: 100%;
+    word-wrap: break-word;
+    border-collapse: collapse;
+}
+
+td a {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.table-header {
+    background-color: dodgerblue;
+}
