@@ -1,4 +1,4 @@
-### Statment
+### Statement
 Mister Hamed is preparing a leaderboard for his top students.
 
 He has an array of student objects where each student has the following properties:
@@ -27,7 +27,7 @@ Can you help mister Hamed to achieve his needs **using at least two array method
 ```js
 const getLeaderBoard = (students) => {
   // do you magic
-  return students;
+  return leaderboard;
 }
 
 const students = [
@@ -89,3 +89,10 @@ const students = [
 
 console.log(getLeaderBoard(students));
 ```
+
+### Note
+You need to return the leaderboard array with the following attributes:
+
+- Only top students are in the leaderboard.
+- Each students object in the leaderboard has an additional property `totalGrade` which is the sum of all of this student's grades.
+- The leaderboard is sorted in descending order by the totalGrade.
