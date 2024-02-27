@@ -90,9 +90,10 @@ const students = [
 console.log(getLeaderBoard(students));
 ```
 
-### Note
-You need to return the leaderboard array with the following attributes:
+### Notes
+- You need to return the leaderboard array with the following attributes:
+  - Only top students are in the leaderboard.
+  - Each students object in the leaderboard has an additional property `totalGrade` which is the sum of all of this student's grades.
+  - The leaderboard is sorted in descending order by the totalGrade.
 
-- Only top students are in the leaderboard.
-- Each students object in the leaderboard has an additional property `totalGrade` which is the sum of all of this student's grades.
-- The leaderboard is sorted in descending order by the totalGrade.
+- Use at least two array methods you've learned this week.
