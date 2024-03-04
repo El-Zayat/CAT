@@ -97,3 +97,4 @@ console.log(getLeaderBoard(students));
   - The leaderboard is sorted in descending order by the totalGrade.
 
 - Use at least two array methods you've learned this week.
+- The getLeaderBoard function should be pure (it does not mutate the original `students` array.
